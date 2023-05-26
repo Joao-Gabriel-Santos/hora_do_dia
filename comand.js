@@ -1,4 +1,4 @@
-function carregar() {
+
 var p = window.document.getElementsByTagName('p')[0]
 var img = window.document.getElementById('img')
 
@@ -20,5 +20,4 @@ else if (hora > 11 && hora < 18) {
 else {
     document.body.style.background = 'gray'
     img.style.backgroundImage = 'url(img/noite.jpg)'
-}
 }
