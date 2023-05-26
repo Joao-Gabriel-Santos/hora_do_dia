@@ -15,7 +15,8 @@ h1 {
 
 section {
     margin: auto;
-    width: 500px;
+    min-width: 90vw;
+    max-width: 500px;
     background-color: white;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
     border-radius: 5px ;
@@ -44,4 +45,5 @@ footer {
     text-align: center;
     font-size: 1.2em;
     font-style: italic;
+    margin: auto;
 }
